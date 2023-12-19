@@ -24,9 +24,9 @@ while month_chosen not in months:
 if month_chosen in ["January", "March", "May", "July", "August", "October", "December"]:
     print(f"{month_chosen} has 31 days")
     
-if month_chosen in ["April", "June", "September", "Novemeber"]:
+elif month_chosen in ["April", "June", "September", "November"]:
     print(f"{month_chosen} has 30 days")
     
-if month_chosen in ["February"]:
+else:
     print(f"{month_chosen} has 28 or 29 days")
    
